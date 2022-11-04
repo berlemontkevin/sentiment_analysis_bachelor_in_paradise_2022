@@ -9,6 +9,7 @@ __pycache__/
 #Data folders
 data/
 config.py
+twitter_credentials.ini
 config.ini 
 
 #Rsync
