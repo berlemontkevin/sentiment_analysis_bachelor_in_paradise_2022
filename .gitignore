@@ -9,6 +9,8 @@ __pycache__/
 #Data folders
 data/
 
+#Rsync
+rsync.txt
 
 # Distribution / packaging
 .Python
