@@ -1,0 +1,10 @@
+ipykernel
+Streamlit
+pandas
+plotly
+wordcloud
+matplotlib
+configparser
+tweepy
+tokenizer
+transformers
