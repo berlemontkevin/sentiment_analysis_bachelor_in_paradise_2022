@@ -15,6 +15,10 @@ config.ini
 #Rsync
 rsync.txt
 
+#Plots and Reports
+plots/
+reports/
+
 # Distribution / packaging
 .Python
 build/
