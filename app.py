@@ -76,6 +76,9 @@ st.markdown('Let us first look at the evolution of the sentiment of the tweets a
 fig_men = px.line(df_men, x='Date', y='Neg Tweets', markers = True, color = 'Candidate', title = 'Proportion of negative tweets about men contestants', labels = {'index':'Date', 'value':'Proportion of negative tweets', 'variable':'Candidate'})
 st.plotly_chart(fig_men)
 
+st.write('It should not be a surprise to anybody watching the show that Michael got such an increase in negative tweets during October.')
+
+
 st.markdown('Let us first look at the evolution of the sentiment of the tweets about women contestants through the show:')
 fig_women = px.line(df_women, x='Date', y='Neg Tweets', markers = True, color = 'Candidate', title = 'Proportion of negative tweets about women contestants', labels = {'index':'Date', 'value':'Proportion of negative tweets', 'variable':'Candidate'})
 st.plotly_chart(fig_women)
@@ -94,3 +97,4 @@ st.plotly_chart(fig_women)
 # st.markdown('Now we look at the evolution of the sentiment of the tweets about gabby\'s contestants thruogh the show:')
 # fig_gabby = px.line(gabby_df, x=gabby_df.index, y=gabby_df.columns, markers = True, title = 'Proportion of negative tweets about gabby\'s contestants', labels = {'index':'Date', 'value':'Proportion of negative tweets', 'variable':'Candidate'})
 # st.plotly_chart(fig_gabby)
+st.write('Let me know on my github if there is any efatures you would want to have a look at.')

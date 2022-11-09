@@ -58,7 +58,6 @@ fig_men = px.line(df_sentiments, x='Date', y='Neg Tweets', markers = True, color
 st.plotly_chart(fig_men)
 
 
-
 st.markdown('### Let us now look at the most frequent words used in the tweets about johnny:')
 
 option = st.selectbox(
