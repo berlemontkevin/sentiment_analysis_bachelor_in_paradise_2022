@@ -50,15 +50,12 @@ for date in dates:
         # df_sentiments['Number Tweets'][date] = count
 
 
-st.markdown('Let us first look at the evolution of the sentiment of the tweets about Rachel thruogh the show:')
+st.markdown('Let us first look at the evolution of the sentiment of the tweets about Michael through the show:')
 
 
+fig_men = px.line(df_sentiments, x='Date', y='Neg Tweets', markers = True, color = 'Candidate', title = 'Proportion of negative tweets about men contestants', labels = {'index':'Date', 'value':'Proportion of negative tweets', 'variable':'Candidate'})
+st.plotly_chart(fig_men)
 
-fig_rachel = px.line(df_sentiments, x=df_sentiments.index, y=df_sentiments.columns, markers = True, title = 'Proportion of negative tweets about Rachel', labels = {'index':'Date', 'value':'Proportion of negative tweets', 'variable':'Candidate'})
-st.plotly_chart(fig_rachel)
-
-fig_rachel_numbers = px.line(df_numbers, x=df_numbers.index, y=df_numbers.columns, markers = True, title = 'Number of tweets about Rachel', labels = {'value': 'Number of tweets', 'index': 'Date', 'variable': 'Candidate'})
-st.plotly_chart(fig_rachel_numbers)
 
 
 st.markdown('### Let us now look at the most frequent words used in the tweets about Michael:')

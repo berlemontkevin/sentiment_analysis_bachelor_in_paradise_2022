@@ -83,12 +83,12 @@ st.plotly_chart(fig_women)
 
 # Let's plot the last day as histogram
 
-hist_men = px.box(df_men, x=men, y="Neg Tweets", title ="Proportion of Negative tweets about a contestant")
-st.plotly_chart(hist_men)
+# hist_men = px.box(df_men, x=men, y="Neg Tweets", title ="Proportion of Negative tweets about a contestant")
+# st.plotly_chart(hist_men)
 
-#same thing for women
-hist_women = px.box(df_women, x=women, y="Neg Tweets")
-st.plotly_chart(hist_women)
+# #same thing for women
+# hist_women = px.box(df_women, x=women, y="Neg Tweets")
+# st.plotly_chart(hist_women)
 
 
 # st.markdown('Now we look at the evolution of the sentiment of the tweets about gabby\'s contestants thruogh the show:')
