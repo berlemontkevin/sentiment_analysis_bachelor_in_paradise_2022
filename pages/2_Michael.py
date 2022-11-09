@@ -84,11 +84,12 @@ for date in dates_2:
     # ax.axis("off")
     st.pyplot(fig)
 
-    #save the most frequent word
-    print(positive_wordcloud.words_.most_common(1)[0][0])
-    df_numbers[candidate][date] = positive_wordcloud.words_.most_common(1)[0][0]
+    #save the most frequent word of the wordcloud
+    
+#     print(positive_wordcloud.words_.most_common(1)[0][0])
+#     df_numbers[candidate][date] = positive_wordcloud.words_.most_common(1)[0][0]
 
-st.markdown('### Let us now look at the most frequent words used in the tweets about Michael:')
-st.dataframe(df_numbers)
+# st.markdown('### Let us now look at the most frequent words used in the tweets about Michael:')
+# st.dataframe(df_numbers)
 
     
