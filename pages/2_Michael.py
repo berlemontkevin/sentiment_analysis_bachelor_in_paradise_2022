@@ -85,6 +85,7 @@ for date in dates_2:
     st.pyplot(fig)
 
     #save the most frequent word
+    print(positive_wordcloud.words_.most_common(1)[0][0])
     df_numbers[candidate][date] = positive_wordcloud.words_.most_common(1)[0][0]
 
 st.markdown('### Let us now look at the most frequent words used in the tweets about Michael:')
