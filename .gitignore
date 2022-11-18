@@ -12,6 +12,12 @@ config.py
 twitter_credentials.ini
 config.ini 
 
+#Logs
+*.log
+
+# Ignore twitter roberta
+twitter_roberta/
+
 #Rsync
 rsync.txt
 

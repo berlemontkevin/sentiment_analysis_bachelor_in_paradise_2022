@@ -8,3 +8,10 @@ configparser
 tweepy
 tokenizer
 transformers
+--find-links https://download.pytorch.org/whl/cpu
+torch
+--find-links https://download.pytorch.org/whl/cpu
+torchvision
+--find-links https://download.pytorch.org/whl/cpu
+torchaudio
+python-json-logger
